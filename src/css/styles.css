@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+:root{
+  --bg-yellow: rgb(255, 223, 40);
+  --bg-gray: rgb(232, 232, 232);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif ;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 0.9rem;
+}
+.main-container {
+  min-height: calc(100vh - 100px);
+}
+.head-bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50px;
+  background-color: var(--bg-yellow);
+}
+.head-bar h1 {
+  margin-left: 40px;
+}
+/* Note Box */
+.note-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  max-width: 96%;
+  margin: auto;
+  padding: 30px 5px 10px 5px;
+}
+.note-box {
+  width: 200px;
+  height: 125px;
+  max-height: 200px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 3%;
+  box-shadow: 0 0 5px 1px gray;
+  float: left;
+  margin: 5px 13px 15px 13px;
+}
+.note-text {
+  height: 70%;
+  padding: 5px;
+}
+.note-text p {
+  font-size: 0.8rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: var(--bg-gray) ;
+}
+.footer p{
+  font-size: 0.75rem;
+}
