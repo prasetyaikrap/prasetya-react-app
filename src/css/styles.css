@@ -33,13 +33,14 @@ h4 {
 .note-container {
   display: flex;
   flex-wrap: wrap;
+  /* overflow-x: scroll; */
   justify-content: left;
   max-width: 96%;
   margin: auto;
   padding: 30px 5px 10px 5px;
 }
 .note-box {
-  width: 200px;
+  min-width: 200px;
   height: 125px;
   max-height: 200px;
   padding: 5px;
